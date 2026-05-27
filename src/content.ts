@@ -3,29 +3,16 @@ import { Code2, Database, GitBranch, MonitorCheck, ServerCog, ShieldCheck } from
 export const projects = [
   {
     name: "OpsFlow Service Desk",
-    status: "Projeto principal",
-    summary: "Sistema full-stack para controlar chamados, prioridade, SLA e status operacional.",
+    status: "Case full stack",
+    summary: "Sistema operacional para priorizar chamados, acompanhar SLA, registrar status e visualizar indicadores da fila.",
     image: "/projects/opsflow-overview.png",
     repoUrl: "https://github.com/yuribarbosa384-bot/opsflow-service-desk",
     stack: ["React", "TypeScript", "Express", "Zod", "Vitest", "GitHub Actions"],
     outcomes: [
-      "API REST com validacao e filtros",
-      "Dashboard com indicadores de fila",
-      "Testes de dominio, API e formulario",
-      "README com case study e decisoes tecnicas"
-    ]
-  },
-  {
-    name: "Cashback Nology",
-    status: "Projeto academico",
-    summary: "Aplicacao web para calculo de cashback com regras de negocio, historico e persistencia.",
-    image: "/projects/opsflow-overview.png",
-    repoUrl: "https://github.com/yuribarbosa384-bot/cashback-nology",
-    stack: ["Python", "Flask", "HTML", "CSS", "JavaScript", "SQLAlchemy"],
-    outcomes: [
-      "Regras de negocio implementadas",
-      "Fluxo completo de consulta",
-      "Base para evoluir testes e deploy"
+      "Contratos compartilhados entre frontend e API",
+      "Validação de dados com Zod",
+      "Testes de domínio, API e formulário",
+      "Pipeline de CI com typecheck, testes e build"
     ]
   }
 ];
@@ -34,31 +21,31 @@ export const capabilities = [
   {
     icon: Code2,
     title: "Frontend",
-    text: "React, TypeScript, componentes reutilizaveis, formularios, estados de loading e erro."
+    text: "React, TypeScript, componentes reutilizáveis, formulários, estados de carregamento e tratamento de erro."
   },
   {
     icon: ServerCog,
     title: "Backend",
-    text: "APIs REST, validacao de entrada, rotas, filtros, regras de negocio e tratamento de erro."
+    text: "APIs REST, validação de entrada, rotas, filtros, regras de negócio e tratamento de erro."
   },
   {
     icon: Database,
     title: "Dados",
-    text: "SQL, modelagem simples, persistencia local, filtros e leitura de indicadores operacionais."
+    text: "SQL, modelagem de dados, persistência local, filtros e leitura de indicadores operacionais."
   },
   {
     icon: ShieldCheck,
     title: "Qualidade",
-    text: "Testes automatizados, typecheck, CI, documentacao e revisao visual antes de publicar."
+    text: "Testes automatizados, typecheck, CI, documentação e revisão visual antes de publicar."
   },
   {
     icon: GitBranch,
     title: "Git",
-    text: "Commits claros, README forte, estrutura de repositorio e preparo para GitHub profissional."
+    text: "Histórico organizado, README objetivo, estrutura de repositório e integração com GitHub."
   },
   {
     icon: MonitorCheck,
     title: "Produto",
-    text: "Interfaces objetivas para fluxo de trabalho, priorizacao, acompanhamento e tomada de decisao."
+    text: "Interfaces objetivas para fluxo de trabalho, priorização, acompanhamento e tomada de decisão."
   }
 ];

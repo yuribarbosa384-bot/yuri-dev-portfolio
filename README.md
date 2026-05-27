@@ -1,8 +1,8 @@
-# Yuri Barbosa Couto | Portfolio
+# Yuri Barbosa Couto | Portfólio
 
-Portfolio pessoal para apresentar projetos, competencias e estudos de caso de desenvolvimento.
+Portfólio pessoal para apresentar projetos, competências e estudos de caso de desenvolvimento.
 
-Repositorio: https://github.com/yuribarbosa384-bot/yuri-dev-portfolio
+Repositório: https://github.com/yuribarbosa384-bot/yuri-dev-portfolio
 
 ## Stack
 
@@ -19,7 +19,7 @@ npm install
 npm run dev
 ```
 
-## Verificacoes
+## Verificações
 
 ```bash
 npm run typecheck
@@ -27,18 +27,13 @@ npm run test
 npm run build
 ```
 
-## Conteudo
+## Conteúdo
 
 - Hero com posicionamento profissional
-- Projetos em formato de case study
-- Competencias tecnicas
+- Projetos em formato de estudo de caso
+- Competências técnicas
 - Contato
 
 ## Projetos destacados
 
 - OpsFlow Service Desk: https://github.com/yuribarbosa384-bot/opsflow-service-desk
-- Cashback Nology: https://github.com/yuribarbosa384-bot/cashback-nology
-
-## Observacao
-
-Os links ainda usam `yuribarbosa384-bot`. Antes de publicar, o ideal e trocar o username do GitHub para um nome profissional e atualizar os links.

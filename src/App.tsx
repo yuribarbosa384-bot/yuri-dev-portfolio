@@ -13,7 +13,7 @@ export function App() {
         <div className="absolute inset-0 bg-slate-950/45" />
         <div className="relative mx-auto flex min-h-[92vh] w-full max-w-6xl flex-col justify-between px-5 py-6 md:px-8">
           <nav className="flex items-center justify-between gap-4 text-sm">
-            <a className="font-semibold tracking-[0.16em]" href="#top">YURI</a>
+            <a className="font-semibold" href="#top">Yuri Barbosa</a>
             <div className="flex items-center gap-3">
               <a className="rounded-md border border-white/25 px-3 py-2 hover:bg-white/10" href="#projetos">Projetos</a>
               <a className="rounded-md border border-white/25 px-3 py-2 hover:bg-white/10" href="#contato">Contato</a>
@@ -22,11 +22,11 @@ export function App() {
 
           <div id="top" className="max-w-3xl py-16">
             <p className="mb-4 inline-flex items-center gap-2 rounded-sm bg-cyan-300 px-3 py-1 text-sm font-semibold text-slate-950">
-              Desenvolvedora full stack em formacao
+              Desenvolvimento web, APIs e automação
             </p>
             <h1 className="text-4xl font-semibold leading-tight md:text-6xl">Yuri Barbosa Couto</h1>
             <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-100">
-              Crio sistemas com foco em organizacao, automacao de processos e clareza operacional. Minha base combina ADS, experiencia administrativa e projetos praticos com React, TypeScript, APIs e dados.
+              Crio aplicações para organizar fluxos de trabalho, transformar rotinas manuais em sistemas e tornar dados operacionais mais fáceis de acompanhar.
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
               <a className="inline-flex items-center gap-2 rounded-md bg-white px-4 py-3 text-sm font-semibold text-slate-950 hover:bg-cyan-100" href="#projetos">
@@ -41,9 +41,9 @@ export function App() {
           </div>
 
           <div className="grid gap-3 border-t border-white/20 pt-5 text-sm text-slate-100 md:grid-cols-3">
-            <span className="inline-flex items-center gap-2"><MapPin aria-hidden="true" className="h-4 w-4" /> Sao Joao de Meriti, RJ</span>
-            <span>Foco: React, TypeScript, APIs e automacao</span>
-            <span>Disponivel para estagio e projetos junior</span>
+            <span className="inline-flex items-center gap-2"><MapPin aria-hidden="true" className="h-4 w-4" /> São João de Meriti, RJ</span>
+            <span>React, TypeScript, Node.js e SQL</span>
+            <span>Projetos com produto, código, testes e documentação</span>
           </div>
         </div>
       </section>
@@ -52,10 +52,10 @@ export function App() {
         <div className="mb-7 flex flex-col gap-2 md:flex-row md:items-end md:justify-between">
           <div>
             <p className="text-sm font-semibold uppercase tracking-[0.14em] text-cyan-700">Projetos</p>
-            <h2 className="mt-2 text-3xl font-semibold text-slate-950">Repertorio tecnico</h2>
+            <h2 className="mt-2 text-3xl font-semibold text-slate-950">Repertório técnico</h2>
           </div>
           <p className="max-w-xl text-sm leading-6 text-slate-600">
-            Cada projeto foi pensado para mostrar uma competencia verificavel: produto, codigo, testes, documentacao e decisao tecnica.
+            Projetos selecionados para demonstrar raciocínio de produto, arquitetura, código limpo, testes e documentação.
           </p>
         </div>
 
@@ -73,7 +73,7 @@ export function App() {
                   className="mt-4 inline-flex items-center gap-2 rounded-md border border-slate-200 px-3 py-2 text-sm font-semibold text-slate-800 hover:bg-slate-50"
                   href={project.repoUrl}
                 >
-                  Ver repositorio
+                  Ver repositório
                   <ArrowUpRight aria-hidden="true" className="h-4 w-4" />
                 </a>
                 <div className="mt-4 flex flex-wrap gap-2">
@@ -112,7 +112,7 @@ export function App() {
           <p className="text-sm font-semibold uppercase tracking-[0.14em] text-cyan-700">Contato</p>
           <h2 className="mt-2 text-3xl font-semibold text-slate-950">Vamos conversar</h2>
           <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-600">
-            Busco oportunidades para aplicar desenvolvimento, automacao e analise de dados em problemas reais.
+            Busco oportunidades para aplicar desenvolvimento, automação e análise de dados em problemas reais.
           </p>
         </div>
         <div className="flex flex-wrap gap-3">
