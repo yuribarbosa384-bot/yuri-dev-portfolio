@@ -6,6 +6,7 @@ export const projects = [
     status: "Projeto principal",
     summary: "Sistema full-stack para controlar chamados, prioridade, SLA e status operacional.",
     image: "/projects/opsflow-overview.png",
+    repoUrl: "https://github.com/yuribarbosa384-bot/opsflow-service-desk",
     stack: ["React", "TypeScript", "Express", "Zod", "Vitest", "GitHub Actions"],
     outcomes: [
       "API REST com validacao e filtros",
@@ -19,6 +20,7 @@ export const projects = [
     status: "Projeto academico",
     summary: "Aplicacao web para calculo de cashback com regras de negocio, historico e persistencia.",
     image: "/projects/opsflow-overview.png",
+    repoUrl: "https://github.com/yuribarbosa384-bot/cashback-nology",
     stack: ["Python", "Flask", "HTML", "CSS", "JavaScript", "SQLAlchemy"],
     outcomes: [
       "Regras de negocio implementadas",

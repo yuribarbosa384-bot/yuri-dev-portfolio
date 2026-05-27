@@ -69,6 +69,13 @@ export function App() {
                 </div>
                 <h3 className="text-xl font-semibold text-slate-950">{project.name}</h3>
                 <p className="mt-2 text-sm leading-6 text-slate-600">{project.summary}</p>
+                <a
+                  className="mt-4 inline-flex items-center gap-2 rounded-md border border-slate-200 px-3 py-2 text-sm font-semibold text-slate-800 hover:bg-slate-50"
+                  href={project.repoUrl}
+                >
+                  Ver repositorio
+                  <ArrowUpRight aria-hidden="true" className="h-4 w-4" />
+                </a>
                 <div className="mt-4 flex flex-wrap gap-2">
                   {project.stack.map((item) => (
                     <span key={item} className="rounded-sm bg-slate-100 px-2 py-1 text-xs font-medium text-slate-700">{item}</span>

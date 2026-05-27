@@ -2,6 +2,8 @@
 
 Portfolio pessoal para apresentar projetos, competencias e estudos de caso de desenvolvimento.
 
+Repositorio: https://github.com/yuribarbosa384-bot/yuri-dev-portfolio
+
 ## Stack
 
 - React 19
@@ -31,6 +33,11 @@ npm run build
 - Projetos em formato de case study
 - Competencias tecnicas
 - Contato
+
+## Projetos destacados
+
+- OpsFlow Service Desk: https://github.com/yuribarbosa384-bot/opsflow-service-desk
+- Cashback Nology: https://github.com/yuribarbosa384-bot/cashback-nology
 
 ## Observacao
 
