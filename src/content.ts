@@ -4,15 +4,15 @@ export const projects = [
   {
     name: "OpsFlow Administrativo",
     status: "Sistema full stack",
-    summary: "Gestão de tarefas administrativas com banco SQLite, criação, edição, exclusão, filtros por prazo e responsável, dashboard e insights de gargalos operacionais.",
+    summary: "Command Center para priorizar demandas administrativas, detectar gargalos, calcular score de risco e controlar prazos críticos.",
     image: "/projects/opsflow-overview.png",
     repoUrl: "https://github.com/yuribarbosa384-bot/opsflow-service-desk",
     stack: ["React", "TypeScript", "Express", "SQLite", "Zod", "Vitest", "GitHub Actions"],
     outcomes: [
-      "Banco SQLite com seed, índices e persistência local",
-      "API REST com criação, edição, exclusão, filtros e métricas",
-      "Dashboard com taxa de conclusão, prazos vencidos e insights operacionais",
-      "Testes de domínio, API e formulário com pipeline de CI"
+      "Score de risco por prazo, prioridade, responsável e gargalo",
+      "Dashboard, fila operacional, Kanban e relatórios",
+      "API REST com SQLite, criação, edição, exclusão, filtros e métricas",
+      "Testes de domínio, API e formulário com deploy no GitHub Pages"
     ]
   }
 ];

@@ -2,7 +2,7 @@
 
 Portfólio pessoal para apresentar projetos, competências e estudos de caso de desenvolvimento.
 
-Repositório: https://github.com/yuribarbosa384-bot/yuri-dev-portfolio
+[Demo online](https://yuribarbosa384-bot.github.io/yuri-dev-portfolio/) · [Repositório](https://github.com/yuribarbosa384-bot/yuri-dev-portfolio)
 
 ## Stack
 
@@ -11,6 +11,7 @@ Repositório: https://github.com/yuribarbosa384-bot/yuri-dev-portfolio
 - Vite
 - Tailwind CSS
 - Vitest e Testing Library
+- GitHub Pages
 
 ## Rodar localmente
 

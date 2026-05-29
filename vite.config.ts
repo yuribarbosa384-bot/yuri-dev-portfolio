@@ -2,7 +2,8 @@ import react from "@vitejs/plugin-react";
 import tailwindcss from "@tailwindcss/vite";
 import { defineConfig } from "vitest/config";
 
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
+  base: mode === "github-pages" ? "/yuri-dev-portfolio/" : "/",
   plugins: [react(), tailwindcss()],
   server: {
     port: 5174
@@ -11,4 +12,4 @@ export default defineConfig({
     environment: "jsdom",
     setupFiles: "./src/test/setup.ts"
   }
-});
+}));
