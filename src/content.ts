@@ -2,17 +2,17 @@ import { Code2, Database, GitBranch, MonitorCheck, ServerCog, ShieldCheck } from
 
 export const projects = [
   {
-    name: "OpsFlow Service Desk",
-    status: "Case full stack",
-    summary: "Sistema operacional para priorizar chamados, acompanhar SLA, registrar status e visualizar indicadores da fila.",
+    name: "OpsFlow Administrativo",
+    status: "Sistema full stack",
+    summary: "Gestão de tarefas administrativas com banco SQLite, criação, edição, exclusão, filtros por prazo e responsável, dashboard e insights de gargalos operacionais.",
     image: "/projects/opsflow-overview.png",
     repoUrl: "https://github.com/yuribarbosa384-bot/opsflow-service-desk",
-    stack: ["React", "TypeScript", "Express", "Zod", "Vitest", "GitHub Actions"],
+    stack: ["React", "TypeScript", "Express", "SQLite", "Zod", "Vitest", "GitHub Actions"],
     outcomes: [
-      "Contratos compartilhados entre frontend e API",
-      "Validação de dados com Zod",
-      "Testes de domínio, API e formulário",
-      "Pipeline de CI com typecheck, testes e build"
+      "Banco SQLite com seed, índices e persistência local",
+      "API REST com criação, edição, exclusão, filtros e métricas",
+      "Dashboard com taxa de conclusão, prazos vencidos e insights operacionais",
+      "Testes de domínio, API e formulário com pipeline de CI"
     ]
   }
 ];
@@ -21,17 +21,17 @@ export const capabilities = [
   {
     icon: Code2,
     title: "Frontend",
-    text: "React, TypeScript, componentes reutilizáveis, formulários, estados de carregamento e tratamento de erro."
+    text: "React, TypeScript, componentes reutilizáveis, formulários, edição, exclusão, estados de carregamento e tratamento de erro."
   },
   {
     icon: ServerCog,
     title: "Backend",
-    text: "APIs REST, validação de entrada, rotas, filtros, regras de negócio e tratamento de erro."
+    text: "APIs REST, validação de entrada, rotas, filtros, regras de negócio, métricas e tratamento de erro."
   },
   {
     icon: Database,
     title: "Dados",
-    text: "SQL, modelagem de dados, persistência local, filtros e leitura de indicadores operacionais."
+    text: "SQL, modelagem de dados, SQLite, persistência local, filtros e leitura de indicadores operacionais."
   },
   {
     icon: ShieldCheck,

@@ -36,4 +36,4 @@ npm run build
 
 ## Projetos destacados
 
-- OpsFlow Service Desk: https://github.com/yuribarbosa384-bot/opsflow-service-desk
+- OpsFlow Administrativo: https://github.com/yuribarbosa384-bot/opsflow-service-desk

@@ -7,6 +7,6 @@ describe("Portfolio", () => {
     render(<App />);
 
     expect(screen.getByRole("heading", { name: "Yuri Barbosa Couto" })).toBeInTheDocument();
-    expect(screen.getByRole("heading", { name: "OpsFlow Service Desk" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "OpsFlow Administrativo" })).toBeInTheDocument();
   });
 });

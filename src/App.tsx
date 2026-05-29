@@ -22,7 +22,7 @@ export function App() {
 
           <div id="top" className="max-w-3xl py-16">
             <p className="mb-4 inline-flex items-center gap-2 rounded-sm bg-cyan-300 px-3 py-1 text-sm font-semibold text-slate-950">
-              Desenvolvimento web, APIs e automação
+              Desenvolvedor web, APIs e automação
             </p>
             <h1 className="text-4xl font-semibold leading-tight md:text-6xl">Yuri Barbosa Couto</h1>
             <p className="mt-5 max-w-2xl text-lg leading-8 text-slate-100">
@@ -42,7 +42,7 @@ export function App() {
 
           <div className="grid gap-3 border-t border-white/20 pt-5 text-sm text-slate-100 md:grid-cols-3">
             <span className="inline-flex items-center gap-2"><MapPin aria-hidden="true" className="h-4 w-4" /> São João de Meriti, RJ</span>
-            <span>React, TypeScript, Node.js e SQL</span>
+            <span>React, TypeScript, Node.js, SQLite e APIs</span>
             <span>Projetos com produto, código, testes e documentação</span>
           </div>
         </div>
