@@ -1,19 +1,54 @@
 import { Code2, Database, GitBranch, MonitorCheck, ServerCog, ShieldCheck } from "lucide-react";
 
+export const links = {
+  github: "https://github.com/yuribarbosa384-bot",
+  email: "mailto:yuri.barbosa384@gmail.com",
+  opsflowDemo: "https://yuribarbosa384-bot.github.io/opsflow-service-desk/",
+  opsflowRepo: "https://github.com/yuribarbosa384-bot/opsflow-service-desk",
+  portfolioRepo: "https://github.com/yuribarbosa384-bot/yuri-dev-portfolio",
+  cashbackRepo: "https://github.com/yuribarbosa384-bot/cashback-nology"
+};
+
 export const projects = [
   {
     name: "OpsFlow Administrativo",
-    status: "Sistema full stack",
+    status: "Projeto flagship",
     summary: "Command Center para priorizar demandas administrativas, detectar gargalos, calcular score de risco e controlar prazos críticos.",
     image: "projects/opsflow-overview.png",
-    repoUrl: "https://github.com/yuribarbosa384-bot/opsflow-service-desk",
+    liveUrl: links.opsflowDemo,
+    repoUrl: links.opsflowRepo,
     stack: ["React", "TypeScript", "Express", "SQLite", "Zod", "Vitest", "GitHub Actions"],
     outcomes: [
       "Score de risco por prazo, prioridade, responsável e gargalo",
-      "Dashboard, fila operacional, Kanban e relatórios",
+      "Dashboard, fila operacional, Kanban, relatórios e painel de detalhe",
       "API REST com SQLite, criação, edição, exclusão, filtros e métricas",
-      "Testes de domínio, API e formulário com deploy no GitHub Pages"
+      "Demo pública, testes, CI e documentação de decisão técnica"
+    ],
+    metrics: [
+      "Fluxo crítico coberto por testes de domínio, API e formulário",
+      "Deploy estático no GitHub Pages com dados demonstrativos",
+      "Arquitetura documentada com domínio compartilhado entre web e API"
+    ],
+    decisions: [
+      "Usei monorepo para manter web, API e domínio no mesmo fluxo de qualidade.",
+      "Escolhi SQLite para facilitar setup local sem abrir mão de persistência real.",
+      "Separei regras de risco no pacote de domínio para evitar duplicação entre frontend e backend."
     ]
+  }
+];
+
+export const technicalNotes = [
+  {
+    title: "Produto antes de tela",
+    text: "O OpsFlow não foi pensado como lista genérica de tarefas. A proposta é responder o que está vencido, quem está sobrecarregado e qual demanda deve ser atacada primeiro."
+  },
+  {
+    title: "Trade-off de banco local",
+    text: "SQLite deixa o projeto simples de rodar em ambiente de avaliação, mas a documentação já separa o próximo passo: backend publicado com banco gerenciado."
+  },
+  {
+    title: "Qualidade visível",
+    text: "Typecheck, testes, CI, CodeQL, Dependabot e release notes aparecem no repositório para reduzir fricção na avaliação técnica."
   }
 ];
 
@@ -36,12 +71,12 @@ export const capabilities = [
   {
     icon: ShieldCheck,
     title: "Qualidade",
-    text: "Testes automatizados, typecheck, CI, documentação e revisão visual antes de publicar."
+    text: "Testes automatizados, typecheck, CI, documentação, segurança de dependências e revisão visual antes de publicar."
   },
   {
     icon: GitBranch,
     title: "Git",
-    text: "Histórico organizado, README objetivo, estrutura de repositório e integração com GitHub."
+    text: "Histórico organizado, README objetivo, estrutura de repositório, GitHub Actions e deploy público."
   },
   {
     icon: MonitorCheck,
