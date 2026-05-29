@@ -2,12 +2,14 @@ import { ArrowUpRight, GitBranch, Mail, MapPin } from "lucide-react";
 import { capabilities, projects } from "./content";
 
 export function App() {
+  const heroImage = `${import.meta.env.BASE_URL}projects/opsflow-overview.png`;
+
   return (
     <main>
       <section className="relative min-h-[92vh] overflow-hidden bg-slate-950 text-white">
         <img
           className="absolute inset-0 h-full w-full object-cover opacity-35"
-          src="/projects/opsflow-overview.png"
+          src={heroImage}
           alt=""
         />
         <div className="absolute inset-0 bg-slate-950/45" />
@@ -62,7 +64,7 @@ export function App() {
         <div className="grid gap-5 lg:grid-cols-2">
           {projects.map((project) => (
             <article key={project.name} className="overflow-hidden rounded-md border border-slate-200 bg-white shadow-sm">
-              <img className="h-56 w-full object-cover" src={project.image} alt={`Screenshot do projeto ${project.name}`} />
+              <img className="h-56 w-full object-cover" src={`${import.meta.env.BASE_URL}${project.image}`} alt={`Screenshot do projeto ${project.name}`} />
               <div className="p-5">
                 <div className="mb-3 flex items-center justify-between gap-3">
                   <span className="rounded-sm bg-cyan-50 px-2 py-1 text-xs font-semibold text-cyan-800">{project.status}</span>

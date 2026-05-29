@@ -5,7 +5,7 @@ export const projects = [
     name: "OpsFlow Administrativo",
     status: "Sistema full stack",
     summary: "Command Center para priorizar demandas administrativas, detectar gargalos, calcular score de risco e controlar prazos críticos.",
-    image: "/projects/opsflow-overview.png",
+    image: "projects/opsflow-overview.png",
     repoUrl: "https://github.com/yuribarbosa384-bot/opsflow-service-desk",
     stack: ["React", "TypeScript", "Express", "SQLite", "Zod", "Vitest", "GitHub Actions"],
     outcomes: [
