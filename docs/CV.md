@@ -11,7 +11,7 @@ Estágio ou oportunidade júnior em desenvolvimento full stack, com foco em sist
 
 ## Resumo
 
-Estudante de Análise e Desenvolvimento de Sistemas, com experiência administrativa no Bradesco Seguros e vivência em processos operacionais. Tenho prática com documentos, planilhas, cadastros, contratos, controle de tarefas e apoio a fluxos internos. Hoje conecto essa vivência com desenvolvimento de software, criando projetos com React, TypeScript, Node.js, SQL, Python, testes, CI e documentação.
+Estudante de Análise e Desenvolvimento de Sistemas, com experiência administrativa no Bradesco Seguros e vivência em processos operacionais. Tenho prática com documentos, planilhas, cadastros, contratos, controle de tarefas e apoio a fluxos internos. Hoje conecto essa vivência com desenvolvimento de software, criando sistemas web com React, TypeScript, Node.js, SQL, Python, testes, CI e documentação para reduzir retrabalho e organizar fluxos de backoffice.
 
 ## Formação
 
@@ -21,11 +21,11 @@ Estudante de Análise e Desenvolvimento de Sistemas, com experiência administra
 ## Projetos
 
 **OpsFlow Administrativo**  
-Command Center full stack para priorizar demandas administrativas, detectar gargalos, calcular score de risco e controlar prazos críticos.
+Central de Operações e SLA full stack para priorizar demandas administrativas, detectar gargalos, calcular score de risco, controlar prazos críticos e registrar decisões operacionais.
 
 - React, TypeScript, Express, SQLite, Zod, Vitest e GitHub Actions.
-- Dashboard, fila operacional, Kanban, relatórios, CRUD completo e painel de detalhe.
-- Score de risco por prazo, prioridade, responsável e categoria.
+- Dashboard, fila operacional, Kanban, relatórios, CRUD completo, comentários internos e painel de detalhe.
+- Score de risco por prazo, prioridade, responsável e categoria; auditoria por tarefa com histórico de criação, edição, status e exclusão.
 - Demo: https://yuribarbosa384-bot.github.io/opsflow-service-desk/
 - Código: https://github.com/yuribarbosa384-bot/opsflow-service-desk
 
@@ -41,9 +41,9 @@ Aplicação Flask para cálculo de cashback, histórico por IP e regras de negó
 **Bradesco Seguros - Jovem Aprendiz Administrativo**  
 abr/2024 - mar/2026
 
-- Apoio às rotinas administrativas com controle de documentos, contratos, cadastros e informações internas.
-- Lançamento e atualização de dados em planilhas Excel, incluindo cadastro de lotes e acompanhamento de demandas.
-- Suporte a processos internos ligados a PCN, normas corporativas e demandas regulatórias.
+- Apoio ao controle e atualização de documentos, contratos, cadastros e informações internas, contribuindo para reduzir retrabalho e melhorar a organização das demandas da área.
+- Lançamento e atualização de dados em planilhas Excel, incluindo cadastro de lotes e acompanhamento de demandas operacionais.
+- Suporte a processos internos ligados a PCN, normas corporativas e demandas regulatórias, com atenção a prazos, registros e padronização.
 - Desenvolvimento de painel interno no Microsoft Power Apps para cadastro, acompanhamento e controle de tarefas administrativas.
 - Atuação com Word, PowerPoint e organização do fluxo operacional da área.
 
