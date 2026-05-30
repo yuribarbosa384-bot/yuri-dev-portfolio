@@ -279,8 +279,8 @@
             <p class="eyebrow">Estudo de caso full stack</p>
             <h1>OpsFlow Administrativo</h1>
             <p>
-              Command Center para transformar rotinas administrativas em uma fila priorizada por
-              prazo, responsável, categoria e risco operacional.
+              Central de Operações e SLA para transformar rotinas administrativas em uma fila
+              priorizada por prazo, responsável, categoria, risco operacional e histórico de decisão.
             </p>
             <div class="actions">
               <a class="button primary" href="https://yuribarbosa384-bot.github.io/opsflow-service-desk/">Abrir demo</a>
@@ -306,7 +306,7 @@
           <article class="panel">
             <span class="metric">03</span>
             <h3>Qualidade visível</h3>
-            <p>O repositório mostra TypeScript, API REST, SQLite, Zod, testes automatizados, Playwright E2E, CI, CodeQL e documentação técnica.</p>
+            <p>O repositório mostra TypeScript, API REST, SQLite, auditoria, Zod, testes automatizados, Playwright E2E, CI, CodeQL e documentação técnica.</p>
           </article>
         </div>
       </section>
@@ -318,8 +318,8 @@
             <h2>O projeto responde perguntas de operação</h2>
             <p>
               Em vez de ser apenas uma lista de tarefas, o OpsFlow foi desenhado para apoiar decisão:
-              o que está vencido, quem está sobrecarregado, qual categoria está travando o fluxo e
-              qual demanda precisa ser resolvida primeiro.
+              o que está vencido, quem está sobrecarregado, qual categoria está travando o fluxo,
+              qual demanda precisa ser resolvida primeiro e quais decisões já foram registradas.
             </p>
           </div>
           <div class="panel">
@@ -327,7 +327,8 @@
             <ul>
               <li>Dashboard com indicadores de fila, urgência, risco e conclusão.</li>
               <li>Fila operacional com filtros, chips ativos, URL compartilhável e exportação CSV.</li>
-              <li>CRUD completo com criação, edição, exclusão e painel lateral de detalhe.</li>
+              <li>CRUD completo com criação, edição, exclusão, comentários e painel lateral de detalhe.</li>
+              <li>Histórico de eventos para criação, atualização, mudança de status, comentários e exclusão.</li>
               <li>Kanban, relatórios e dados demonstrativos para avaliação pública.</li>
             </ul>
           </div>
@@ -341,7 +342,7 @@
             <h2>Frontend, API e domínio compartilhado</h2>
             <p>
               A estrutura em monorepo mantém web, API e regras de domínio no mesmo fluxo de qualidade.
-              Isso reduz duplicação, facilita testes e deixa a regra de risco reaproveitável.
+              Isso reduz duplicação, facilita testes e deixa a regra de risco e os contratos de auditoria reaproveitáveis.
             </p>
           </div>
           <div class="diagram" aria-label="Arquitetura do OpsFlow">
@@ -360,15 +361,15 @@
           <div class="grid three">
             <article class="panel">
               <h3>SQLite no backend</h3>
-              <p>Facilita a avaliação local e mantém persistência real sem depender de configuração pesada para quem está revisando o projeto.</p>
+              <p>Facilita a avaliação local e mantém persistência real de tarefas e eventos sem depender de configuração pesada.</p>
             </article>
             <article class="panel">
               <h3>Demo estática</h3>
               <p>GitHub Pages reduz atrito: o avaliador abre o produto imediatamente, enquanto a API local continua documentada para análise técnica.</p>
             </article>
             <article class="panel">
-              <h3>Score de risco</h3>
-              <p>A prioridade deixa de ser subjetiva e passa a ser uma regra explícita, testável e explicável durante uma entrevista técnica.</p>
+              <h3>Score e auditoria</h3>
+              <p>A prioridade deixa de ser subjetiva e cada mudança importante fica registrada em uma timeline explicável durante entrevista técnica.</p>
             </article>
           </div>
         </div>
@@ -380,8 +381,8 @@
             <h3>O que eu demonstraria em entrevista</h3>
             <ul>
               <li>Como modelei filtros, métricas e regra de risco.</li>
-              <li>Como separei contratos entre web, API e domínio.</li>
-              <li>Como os testes cobrem formulário, API e fluxo crítico.</li>
+              <li>Como separei contratos entre web, API, domínio e auditoria.</li>
+              <li>Como os testes cobrem formulário, API, comentários e fluxo crítico.</li>
               <li>Como publicaria a API com banco gerenciado no próximo passo.</li>
             </ul>
           </div>
@@ -390,7 +391,7 @@
             <ul>
               <li>Backend público em Render, Railway ou Fly.io.</li>
               <li>Autenticação e perfis de acesso por área.</li>
-              <li>Histórico de eventos e comentários internos.</li>
+              <li>Notificações por e-mail ou Slack para SLA em risco.</li>
               <li>Relatório mensal exportável em PDF.</li>
             </ul>
           </div>
