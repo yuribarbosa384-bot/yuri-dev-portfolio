@@ -5,8 +5,7 @@ export const links = {
   email: "mailto:yuri.barbosa384@gmail.com",
   opsflowDemo: "https://yuribarbosa384-bot.github.io/opsflow-service-desk/",
   opsflowRepo: "https://github.com/yuribarbosa384-bot/opsflow-service-desk",
-  portfolioRepo: "https://github.com/yuribarbosa384-bot/yuri-dev-portfolio",
-  cashbackRepo: "https://github.com/yuribarbosa384-bot/cashback-nology"
+  portfolioRepo: "https://github.com/yuribarbosa384-bot/yuri-dev-portfolio"
 };
 
 export const projects = [

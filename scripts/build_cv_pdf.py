@@ -129,13 +129,6 @@ def build_pdf() -> None:
         "Demo: yuribarbosa384-bot.github.io/opsflow-service-desk/ | Código: github.com/yuribarbosa384-bot/opsflow-service-desk",
     ])
 
-    paragraph("<b>Cashback Nology</b> - Aplicação Flask para cálculo de cashback, histórico por IP e regras de negócio documentadas.", "CVStrong")
-    bullets([
-        "Python, Flask, SQLAlchemy, HTML, CSS e JavaScript.",
-        "API com validação, persistência e testes de smoke.",
-        "Código: github.com/yuribarbosa384-bot/cashback-nology",
-    ])
-
     paragraph("Experiência", "CVHeading")
     paragraph("<b>Bradesco Seguros - Jovem Aprendiz Administrativo</b><br/>abr/2024 - mar/2026", "CVStrong")
     bullets([

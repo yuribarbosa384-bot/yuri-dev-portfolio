@@ -29,13 +29,6 @@ Central de Operações e SLA full stack para priorizar demandas administrativas,
 - Demo: https://yuribarbosa384-bot.github.io/opsflow-service-desk/
 - Código: https://github.com/yuribarbosa384-bot/opsflow-service-desk
 
-**Cashback Nology**  
-Aplicação Flask para cálculo de cashback, histórico por IP e regras de negócio documentadas.
-
-- Python, Flask, SQLAlchemy, HTML, CSS e JavaScript.
-- API com validação, persistência e testes de smoke.
-- Código: https://github.com/yuribarbosa384-bot/cashback-nology
-
 ## Experiência
 
 **Bradesco Seguros - Jovem Aprendiz Administrativo**  
