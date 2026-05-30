@@ -1,12 +1,12 @@
 # Yuri Barbosa Couto | Portfólio
 
-![CI](https://github.com/yuribarbosa384-bot/yuri-dev-portfolio/actions/workflows/ci.yml/badge.svg)
-![Pages](https://github.com/yuribarbosa384-bot/yuri-dev-portfolio/actions/workflows/pages.yml/badge.svg)
-![CodeQL](https://github.com/yuribarbosa384-bot/yuri-dev-portfolio/actions/workflows/codeql.yml/badge.svg)
+![CI](https://github.com/yuribarbosacouto/yuri-dev-portfolio/actions/workflows/ci.yml/badge.svg)
+![Pages](https://github.com/yuribarbosacouto/yuri-dev-portfolio/actions/workflows/pages.yml/badge.svg)
+![CodeQL](https://github.com/yuribarbosacouto/yuri-dev-portfolio/actions/workflows/codeql.yml/badge.svg)
 
 Portfólio profissional para apresentar projetos, competências, CV e estudos de caso de desenvolvimento full stack.
 
-[Demo online](https://yuribarbosa384-bot.github.io/yuri-dev-portfolio/) · [Case OpsFlow](https://yuribarbosa384-bot.github.io/yuri-dev-portfolio/cases/opsflow.html) · [Repositório](https://github.com/yuribarbosa384-bot/yuri-dev-portfolio)
+[Demo online](https://yuribarbosacouto.github.io/yuri-dev-portfolio/) · [Case OpsFlow](https://yuribarbosacouto.github.io/yuri-dev-portfolio/cases/opsflow.html) · [Repositório](https://github.com/yuribarbosacouto/yuri-dev-portfolio)
 
 ![Tela inicial do portfólio](docs/screenshots/portfolio-home.png)
 
@@ -60,9 +60,9 @@ npm run build
 
 ## Projetos destacados
 
-- OpsFlow Administrativo: https://github.com/yuribarbosa384-bot/opsflow-service-desk
-- Demo do OpsFlow: https://yuribarbosa384-bot.github.io/opsflow-service-desk/
-- Case OpsFlow: https://yuribarbosa384-bot.github.io/yuri-dev-portfolio/cases/opsflow.html
+- OpsFlow Administrativo: https://github.com/yuribarbosacouto/opsflow-service-desk
+- Demo do OpsFlow: https://yuribarbosacouto.github.io/opsflow-service-desk/
+- Case OpsFlow: https://yuribarbosacouto.github.io/yuri-dev-portfolio/cases/opsflow.html
 
 ## Artefatos
 

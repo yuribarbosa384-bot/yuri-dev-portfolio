@@ -1,11 +1,11 @@
 import { Code2, Database, GitBranch, MonitorCheck, ServerCog, ShieldCheck } from "lucide-react";
 
 export const links = {
-  github: "https://github.com/yuribarbosa384-bot",
+  github: "https://github.com/yuribarbosacouto",
   email: "mailto:yuri.barbosa384@gmail.com",
-  opsflowDemo: "https://yuribarbosa384-bot.github.io/opsflow-service-desk/",
-  opsflowRepo: "https://github.com/yuribarbosa384-bot/opsflow-service-desk",
-  portfolioRepo: "https://github.com/yuribarbosa384-bot/yuri-dev-portfolio"
+  opsflowDemo: "https://yuribarbosacouto.github.io/opsflow-service-desk/",
+  opsflowRepo: "https://github.com/yuribarbosacouto/opsflow-service-desk",
+  portfolioRepo: "https://github.com/yuribarbosacouto/yuri-dev-portfolio"
 };
 
 export const projects = [

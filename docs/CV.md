@@ -2,8 +2,8 @@
 
 São João de Meriti, RJ  
 yuri.barbosa384@gmail.com  
-GitHub: https://github.com/yuribarbosa384-bot  
-Portfólio: https://yuribarbosa384-bot.github.io/yuri-dev-portfolio/
+GitHub: https://github.com/yuribarbosacouto  
+Portfólio: https://yuribarbosacouto.github.io/yuri-dev-portfolio/
 
 ## Objetivo
 
@@ -26,8 +26,8 @@ Central de Operações e SLA full stack para priorizar demandas administrativas,
 - React, TypeScript, Express, SQLite, Zod, Vitest e GitHub Actions.
 - Dashboard, fila operacional, Kanban, relatórios, CRUD completo, comentários internos e painel de detalhe.
 - Score de risco por prazo, prioridade, responsável e categoria; auditoria por tarefa com histórico de criação, edição, status e exclusão.
-- Demo: https://yuribarbosa384-bot.github.io/opsflow-service-desk/
-- Código: https://github.com/yuribarbosa384-bot/opsflow-service-desk
+- Demo: https://yuribarbosacouto.github.io/opsflow-service-desk/
+- Código: https://github.com/yuribarbosacouto/opsflow-service-desk
 
 ## Experiência
 

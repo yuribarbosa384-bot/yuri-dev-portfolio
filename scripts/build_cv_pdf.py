@@ -106,8 +106,8 @@ def build_pdf() -> None:
     paragraph("Yuri Barbosa Couto", "CVTitle")
     paragraph(
         "São João de Meriti, RJ | yuri.barbosa384@gmail.com | "
-        "GitHub: github.com/yuribarbosa384-bot | "
-        "Portfólio: yuribarbosa384-bot.github.io/yuri-dev-portfolio/",
+        "GitHub: github.com/yuribarbosacouto | "
+        "Portfólio: yuribarbosacouto.github.io/yuri-dev-portfolio/",
         "CVContact",
     )
     story.append(HRFlowable(width="100%", thickness=0.8, color=colors.HexColor("#cbd5e1"), spaceAfter=6))
@@ -126,7 +126,7 @@ def build_pdf() -> None:
     bullets([
         "React, TypeScript, Express, SQLite, Zod, Vitest e GitHub Actions.",
         "Dashboard, fila operacional, Kanban, relatórios, CRUD completo, comentários internos, auditoria, filtros compartilháveis e exportação CSV.",
-        "Demo: yuribarbosa384-bot.github.io/opsflow-service-desk/ | Código: github.com/yuribarbosa384-bot/opsflow-service-desk",
+        "Demo: yuribarbosacouto.github.io/opsflow-service-desk/ | Código: github.com/yuribarbosacouto/opsflow-service-desk",
     ])
 
     paragraph("Experiência", "CVHeading")
