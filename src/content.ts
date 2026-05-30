@@ -15,6 +15,7 @@ export const projects = [
     status: "Projeto flagship",
     summary: "Command Center para priorizar demandas administrativas, detectar gargalos, calcular score de risco e controlar prazos críticos.",
     image: "projects/opsflow-overview.png",
+    caseStudyPath: "cases/opsflow.html",
     liveUrl: links.opsflowDemo,
     repoUrl: links.opsflowRepo,
     stack: ["React", "TypeScript", "Express", "SQLite", "Zod", "Vitest", "GitHub Actions"],

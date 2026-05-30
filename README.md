@@ -6,9 +6,11 @@
 
 Portfólio profissional para apresentar projetos, competências, CV e estudos de caso de desenvolvimento full stack.
 
-[Demo online](https://yuribarbosa384-bot.github.io/yuri-dev-portfolio/) · [Repositório](https://github.com/yuribarbosa384-bot/yuri-dev-portfolio)
+[Demo online](https://yuribarbosa384-bot.github.io/yuri-dev-portfolio/) · [Case OpsFlow](https://yuribarbosa384-bot.github.io/yuri-dev-portfolio/cases/opsflow.html) · [Repositório](https://github.com/yuribarbosa384-bot/yuri-dev-portfolio)
 
 ![Tela inicial do portfólio](docs/screenshots/portfolio-home.png)
+
+![Case study do OpsFlow](docs/screenshots/portfolio-case-opsflow.png)
 
 ## Proposta
 
@@ -50,7 +52,8 @@ npm run build
 
 - Hero com posicionamento profissional
 - Link para CV PDF
-- Projeto principal em formato de estudo de caso
+- Projeto principal em formato de estudo de caso na home
+- Página dedicada de case study do OpsFlow
 - Notas técnicas e aprendizados
 - Competências técnicas
 - Contato
@@ -59,9 +62,12 @@ npm run build
 
 - OpsFlow Administrativo: https://github.com/yuribarbosa384-bot/opsflow-service-desk
 - Demo do OpsFlow: https://yuribarbosa384-bot.github.io/opsflow-service-desk/
+- Case OpsFlow: https://yuribarbosa384-bot.github.io/yuri-dev-portfolio/cases/opsflow.html
 
 ## Artefatos
 
 - CV fonte: [docs/CV.md](docs/CV.md)
 - CV público: [public/Yuri_Barbosa_Couto_CV.pdf](public/Yuri_Barbosa_Couto_CV.pdf)
 - Script de geração do CV: [scripts/build_cv_pdf.py](scripts/build_cv_pdf.py)
+- Screenshot do case: [docs/screenshots/portfolio-case-opsflow.png](docs/screenshots/portfolio-case-opsflow.png)
+- Screenshot mobile do case: [docs/screenshots/portfolio-case-opsflow-mobile.png](docs/screenshots/portfolio-case-opsflow-mobile.png)

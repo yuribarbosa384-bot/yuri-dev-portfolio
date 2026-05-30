@@ -5,6 +5,7 @@ export function App() {
   const baseUrl = import.meta.env.BASE_URL;
   const heroImage = `${baseUrl}projects/opsflow-overview.png`;
   const cvUrl = `${baseUrl}Yuri_Barbosa_Couto_CV.pdf`;
+  const opsflowCaseUrl = `${baseUrl}${projects[0].caseStudyPath}`;
 
   return (
     <main className="bg-[#f5f7fb] text-slate-950">
@@ -21,6 +22,7 @@ export function App() {
             <div className="flex w-full flex-wrap items-center gap-2 sm:w-auto">
               <a className="rounded-md border border-white/25 px-3 py-2 hover:bg-white/10" href="#projetos">Projetos</a>
               <a className="rounded-md border border-white/25 px-3 py-2 hover:bg-white/10" href="#estudo">Estudo</a>
+              <a className="rounded-md border border-white/25 px-3 py-2 hover:bg-white/10" href={opsflowCaseUrl}>Case</a>
               <a className="rounded-md border border-white/25 px-3 py-2 hover:bg-white/10" href="#contato">Contato</a>
             </div>
           </nav>
@@ -86,6 +88,13 @@ export function App() {
                   </a>
                   <a
                     className="inline-flex items-center gap-2 rounded-md border border-slate-200 px-3 py-2 text-sm font-semibold text-slate-800 hover:bg-slate-50"
+                    href={`${baseUrl}${project.caseStudyPath}`}
+                  >
+                    Case study
+                    <BookOpen aria-hidden="true" className="h-4 w-4" />
+                  </a>
+                  <a
+                    className="inline-flex items-center gap-2 rounded-md border border-slate-200 px-3 py-2 text-sm font-semibold text-slate-800 hover:bg-slate-50"
                     href={project.repoUrl}
                   >
                     Código
@@ -127,6 +136,10 @@ export function App() {
               <a className="inline-flex items-center gap-2 rounded-md border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50" href={links.opsflowRepo}>
                 Ler README
                 <FileText aria-hidden="true" className="h-4 w-4" />
+              </a>
+              <a className="inline-flex items-center gap-2 rounded-md border border-slate-200 px-4 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-50" href={opsflowCaseUrl}>
+                Case completo
+                <BookOpen aria-hidden="true" className="h-4 w-4" />
               </a>
             </div>
           </div>
