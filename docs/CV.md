@@ -29,6 +29,14 @@ Central de Operações e SLA full stack para priorizar demandas administrativas,
 - Demo: https://yuribarbosacouto.github.io/opsflow-service-desk/
 - Código: https://github.com/yuribarbosacouto/opsflow-service-desk
 
+**Lume Fashion Commerce**  
+E-commerce de moda UX-first com catálogo, filtros compartilháveis, PDP com guia de medidas, carrinho e checkout.
+
+- Next.js, TypeScript, Tailwind CSS, Playwright e GitHub Actions.
+- SEO com JSON-LD, audit limpo, static export e E2E desktop/mobile cobrindo o funil crítico.
+- Demo: https://yuribarbosacouto.github.io/lume-fashion-commerce/
+- Código: https://github.com/yuribarbosacouto/lume-fashion-commerce
+
 ## Experiência
 
 **Bradesco Seguros - Jovem Aprendiz Administrativo**  

@@ -63,6 +63,8 @@ npm run build
 - OpsFlow Administrativo: https://github.com/yuribarbosacouto/opsflow-service-desk
 - Demo do OpsFlow: https://yuribarbosacouto.github.io/opsflow-service-desk/
 - Case OpsFlow: https://yuribarbosacouto.github.io/yuri-dev-portfolio/cases/opsflow.html
+- Lume Fashion Commerce: https://github.com/yuribarbosacouto/lume-fashion-commerce
+- Demo do Lume: https://yuribarbosacouto.github.io/lume-fashion-commerce/
 
 ## Artefatos
 

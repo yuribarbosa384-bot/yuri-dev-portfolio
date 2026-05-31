@@ -129,6 +129,13 @@ def build_pdf() -> None:
         "Demo: yuribarbosacouto.github.io/opsflow-service-desk/ | Código: github.com/yuribarbosacouto/opsflow-service-desk",
     ])
 
+    paragraph("<b>Lume Fashion Commerce</b> - E-commerce de moda UX-first com catálogo, filtros compartilháveis, PDP com guia de medidas, carrinho e checkout.", "CVStrong")
+    bullets([
+        "Next.js, TypeScript, Tailwind CSS, Playwright e GitHub Actions.",
+        "SEO com JSON-LD, audit limpo, static export e E2E desktop/mobile cobrindo o funil crítico.",
+        "Demo: yuribarbosacouto.github.io/lume-fashion-commerce/ | Código: github.com/yuribarbosacouto/lume-fashion-commerce",
+    ])
+
     paragraph("Experiência", "CVHeading")
     paragraph("<b>Bradesco Seguros - Jovem Aprendiz Administrativo</b><br/>abr/2024 - mar/2026", "CVStrong")
     bullets([

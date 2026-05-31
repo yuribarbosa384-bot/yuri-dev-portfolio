@@ -5,6 +5,8 @@ export const links = {
   email: "mailto:yuri.barbosa384@gmail.com",
   opsflowDemo: "https://yuribarbosacouto.github.io/opsflow-service-desk/",
   opsflowRepo: "https://github.com/yuribarbosacouto/opsflow-service-desk",
+  lumeDemo: "https://yuribarbosacouto.github.io/lume-fashion-commerce/",
+  lumeRepo: "https://github.com/yuribarbosacouto/lume-fashion-commerce",
   portfolioRepo: "https://github.com/yuribarbosacouto/yuri-dev-portfolio"
 };
 
@@ -34,6 +36,32 @@ export const projects = [
       "Usei monorepo para manter web, API e domínio no mesmo fluxo de qualidade.",
       "Escolhi SQLite para facilitar setup local sem abrir mão de persistência e auditoria reais.",
       "Separei regras de risco no pacote de domínio para evitar duplicação entre frontend e backend."
+    ]
+  },
+  {
+    name: "Lume Fashion Commerce",
+    status: "E-commerce UX-first",
+    summary: "E-commerce de moda com descoberta rápida, filtros compartilháveis, PDP com guia de medidas, carrinho, checkout e testes de funil.",
+    image: "projects/lume-commerce.png",
+    liveUrl: links.lumeDemo,
+    repoUrl: links.lumeRepo,
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "React", "Playwright", "GitHub Actions"],
+    outcomes: [
+      "Home editorial, busca acessível, PLP com filtros em URL e cards responsivos",
+      "PDP com galeria, swatches, estoque, JSON-LD Product e recomendação de tamanho",
+      "Carrinho persistente em localStorage, checkout em etapas e resumo transparente",
+      "Static export para GitHub Pages, audit limpo, CI, CodeQL e testes E2E desktop/mobile"
+    ],
+    metrics: [
+      "Funil crítico coberto por Playwright: filtro, PDP, add-to-cart e checkout",
+      "Build estático com 14 rotas geradas, incluindo 6 páginas de produto",
+      "npm audit --audit-level=moderate sem vulnerabilidades",
+      "URLs de imagens verificadas e demo pública publicada no GitHub Pages"
+    ],
+    decisions: [
+      "Usei Next.js com export estático para unir arquitetura moderna e demo fácil de abrir.",
+      "Mantive dados mockados versionados para focar em UX, acessibilidade, SEO e fluxo de compra.",
+      "Modelei recomendação de tamanho com regra transparente para gerar conversa técnica em entrevista."
     ]
   }
 ];
