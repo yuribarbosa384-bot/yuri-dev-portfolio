@@ -1,0 +1,39 @@
+name: Feature request
+description: Suggest a focused portfolio improvement.
+title: "feat: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What recruiter, client, or reader problem does this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposal
+      description: Describe the smallest useful version.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      placeholder: |
+        - The section explains...
+        - Links point to...
+        - Screenshots show...
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Positioning
+        - Case study
+        - CV
+        - Project gallery
+        - Accessibility
+        - Documentation
+        - Tooling

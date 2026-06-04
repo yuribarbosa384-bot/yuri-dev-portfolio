@@ -48,6 +48,12 @@ npm run build
 - Dependabot para npm e GitHub Actions
 - Dependency Review em pull requests
 
+## Governanca
+
+- Guia de contribuicao: [CONTRIBUTING.md](CONTRIBUTING.md)
+- Politica de seguranca: [SECURITY.md](SECURITY.md)
+- Templates de issue e pull request em [`.github`](.github)
+
 ## Conteúdo
 
 - Hero com posicionamento profissional

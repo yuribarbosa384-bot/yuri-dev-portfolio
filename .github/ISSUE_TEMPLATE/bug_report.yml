@@ -1,0 +1,51 @@
+name: Bug report
+description: Report a reproducible problem in the portfolio.
+title: "fix: "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is broken, outdated, or confusing?
+      placeholder: A project link...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the portfolio
+        2. Navigate to the OpsFlow case
+        3. Click the demo link
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Home
+        - Case study
+        - CV
+        - Project links
+        - Build/deploy
+        - Documentation
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence
+      description: Screenshots, broken links, console errors, or logs.
