@@ -1,20 +1,24 @@
-# Yuri Barbosa Couto | Portfólio
+# Yuri Barbosa Couto | Portfolio
+
+Portfolio curation layer: this site explains which projects are main work samples, which are technical labs, and which are experimental.
 
 ![CI](https://github.com/yuribarbosacouto/yuri-dev-portfolio/actions/workflows/ci.yml/badge.svg)
 ![Pages](https://github.com/yuribarbosacouto/yuri-dev-portfolio/actions/workflows/pages.yml/badge.svg)
 ![CodeQL](https://github.com/yuribarbosacouto/yuri-dev-portfolio/actions/workflows/codeql.yml/badge.svg)
 
-Portfólio profissional para apresentar projetos, competências, CV e estudos de caso de desenvolvimento full stack.
+Professional portfolio for presenting full-stack projects, skills, CV, case studies, and the project maturity map.
 
-[Demo online](https://yuribarbosacouto.github.io/yuri-dev-portfolio/) · [Case OpsFlow](https://yuribarbosacouto.github.io/yuri-dev-portfolio/cases/opsflow.html) · [Repositório](https://github.com/yuribarbosacouto/yuri-dev-portfolio)
+[Demo online](https://yuribarbosacouto.github.io/yuri-dev-portfolio/) | [OpsFlow case](https://yuribarbosacouto.github.io/yuri-dev-portfolio/cases/opsflow.html) | [Repository](https://github.com/yuribarbosacouto/yuri-dev-portfolio)
 
-![Tela inicial do portfólio](docs/screenshots/portfolio-home.png)
+![Portfolio home](docs/screenshots/portfolio-home.png)
 
-![Case study do OpsFlow](docs/screenshots/portfolio-case-opsflow.png)
+![OpsFlow case study](docs/screenshots/portfolio-case-opsflow.png)
 
-## Proposta
+## Purpose
 
-O site posiciona Yuri Barbosa Couto como desenvolvedor full stack em formação com foco em produtos para operações, backoffice e fluxos administrativos. A vitrine prioriza poucos projetos bem explicados, com demo pública, estudo de caso, links de contratação e documentação técnica.
+The site positions Yuri Barbosa Couto as a full-stack developer in formation with focus on internal systems, operations, backoffice, dashboards, e-commerce UX, and automation.
+
+It prioritizes a small, curated set of projects with public demos, clear maturity levels, case study context, hiring links, and technical documentation.
 
 ## Stack
 
@@ -22,17 +26,17 @@ O site posiciona Yuri Barbosa Couto como desenvolvedor full stack em formação 
 - TypeScript
 - Vite
 - Tailwind CSS
-- Vitest e Testing Library
+- Vitest and Testing Library
 - GitHub Pages
 
-## Rodar localmente
+## Run Locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-## Verificações
+## Checks
 
 ```bash
 npm run typecheck
@@ -40,42 +44,51 @@ npm run test
 npm run build
 ```
 
-## Qualidade
+## Quality
 
-- CI com typecheck, testes e build
-- Deploy automatizado no GitHub Pages
-- CodeQL para análise estática
-- Dependabot para npm e GitHub Actions
-- Dependency Review em pull requests
+- CI with typecheck, tests, and build
+- Automated GitHub Pages deploy
+- CodeQL static analysis
+- Dependabot for npm and GitHub Actions
+- Dependency Review on pull requests
 
-## Governanca
+## Content
 
-- Guia de contribuicao: [CONTRIBUTING.md](CONTRIBUTING.md)
-- Politica de seguranca: [SECURITY.md](SECURITY.md)
-- Templates de issue e pull request em [`.github`](.github)
+- Hero with professional positioning
+- Link to CV PDF
+- Main project shown as a case-study driven work sample
+- Project map with maturity and repository connections
+- Dedicated OpsFlow case study page
+- Technical notes and learnings
+- Technical skills
+- Contact links
 
-## Conteúdo
+## Project Map
 
-- Hero com posicionamento profissional
-- Link para CV PDF
-- Projeto principal em formato de estudo de caso na home
-- Página dedicada de case study do OpsFlow
-- Notas técnicas e aprendizados
-- Competências técnicas
-- Contato
+- OpsFlow Administrativo: main full-stack operations project
+- Lume Fashion Commerce: product/UX and e-commerce project
+- Yuri DB Lab: technical-depth systems/database lab
+- PolyAgent Workbench: experimental simulated agent architecture workbench
+- Portfolio: curation layer connecting the narrative
 
-## Projetos destacados
+## Highlighted Projects
 
 - OpsFlow Administrativo: https://github.com/yuribarbosacouto/opsflow-service-desk
-- Demo do OpsFlow: https://yuribarbosacouto.github.io/opsflow-service-desk/
-- Case OpsFlow: https://yuribarbosacouto.github.io/yuri-dev-portfolio/cases/opsflow.html
+- OpsFlow demo: https://yuribarbosacouto.github.io/opsflow-service-desk/
+- OpsFlow case: https://yuribarbosacouto.github.io/yuri-dev-portfolio/cases/opsflow.html
 - Lume Fashion Commerce: https://github.com/yuribarbosacouto/lume-fashion-commerce
-- Demo do Lume: https://yuribarbosacouto.github.io/lume-fashion-commerce/
+- Lume demo: https://yuribarbosacouto.github.io/lume-fashion-commerce/
+- Yuri DB Lab: https://github.com/yuribarbosacouto/yuri-db-lab
+- PolyAgent Workbench: https://github.com/yuribarbosacouto/polyagent-workbench
 
-## Artefatos
+## Artifacts
 
-- CV fonte: [docs/CV.md](docs/CV.md)
-- CV público: [public/Yuri_Barbosa_Couto_CV.pdf](public/Yuri_Barbosa_Couto_CV.pdf)
-- Script de geração do CV: [scripts/build_cv_pdf.py](scripts/build_cv_pdf.py)
-- Screenshot do case: [docs/screenshots/portfolio-case-opsflow.png](docs/screenshots/portfolio-case-opsflow.png)
-- Screenshot mobile do case: [docs/screenshots/portfolio-case-opsflow-mobile.png](docs/screenshots/portfolio-case-opsflow-mobile.png)
+- CV source: [docs/CV.md](docs/CV.md)
+- Public CV: [public/Yuri_Barbosa_Couto_CV.pdf](public/Yuri_Barbosa_Couto_CV.pdf)
+- CV generation script: [scripts/build_cv_pdf.py](scripts/build_cv_pdf.py)
+- Case screenshot: [docs/screenshots/portfolio-case-opsflow.png](docs/screenshots/portfolio-case-opsflow.png)
+- Mobile case screenshot: [docs/screenshots/portfolio-case-opsflow-mobile.png](docs/screenshots/portfolio-case-opsflow-mobile.png)
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md).
