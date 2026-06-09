@@ -8,5 +8,6 @@ describe("Portfolio", () => {
 
     expect(screen.getByRole("heading", { name: "Yuri Barbosa Couto" })).toBeInTheDocument();
     expect(screen.getByRole("heading", { name: "OpsFlow Administrativo" })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: "Como o GitHub se conecta" })).toBeInTheDocument();
   });
 });

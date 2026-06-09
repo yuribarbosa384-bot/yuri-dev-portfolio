@@ -7,7 +7,11 @@ export const links = {
   opsflowRepo: "https://github.com/yuribarbosacouto/opsflow-service-desk",
   lumeDemo: "https://yuribarbosacouto.github.io/lume-fashion-commerce/",
   lumeRepo: "https://github.com/yuribarbosacouto/lume-fashion-commerce",
-  portfolioRepo: "https://github.com/yuribarbosacouto/yuri-dev-portfolio"
+  portfolioRepo: "https://github.com/yuribarbosacouto/yuri-dev-portfolio",
+  dbLabDocs: "https://yuribarbosacouto.github.io/yuri-db-lab/",
+  dbLabRepo: "https://github.com/yuribarbosacouto/yuri-db-lab",
+  polyagentDemo: "https://yuribarbosacouto.github.io/polyagent-workbench/",
+  polyagentRepo: "https://github.com/yuribarbosacouto/polyagent-workbench"
 };
 
 export const projects = [
@@ -78,6 +82,49 @@ export const technicalNotes = [
   {
     title: "Qualidade visível",
     text: "Typecheck, testes, CI, CodeQL, Dependabot e release notes aparecem no repositório para reduzir fricção na avaliação técnica."
+  }
+];
+
+export const projectMap = [
+  {
+    tier: "Principal",
+    name: "OpsFlow",
+    role: "Sistema full stack para operacoes, SLA e priorizacao de demandas administrativas.",
+    maturity: "Projeto mais defensavel em entrevista: problema real, API, banco, testes, CI e demo publica.",
+    repoUrl: links.opsflowRepo,
+    liveUrl: links.opsflowDemo
+  },
+  {
+    tier: "Principal",
+    name: "Lume",
+    role: "Produto visual e fluxo de compra para e-commerce de moda.",
+    maturity: "Mostra frontend, UX, acessibilidade, SEO, carrinho, checkout e testes E2E.",
+    repoUrl: links.lumeRepo,
+    liveUrl: links.lumeDemo
+  },
+  {
+    tier: "Laboratorio tecnico",
+    name: "Yuri DB Lab",
+    role: "Estudo de banco de dados por baixo dos sistemas: parser SQL, storage, indices e WAL.",
+    maturity: "Projeto experimental de sistemas. Tem subsistemas reais, mas nao e banco de producao.",
+    repoUrl: links.dbLabRepo,
+    liveUrl: links.dbLabDocs
+  },
+  {
+    tier: "Experimental",
+    name: "PolyAgent",
+    role: "Workbench de arquitetura para roteamento, fila, traces e metricas de agentes simulados.",
+    maturity: "Providers e outputs sao simulados. Serve como laboratorio de arquitetura, nao plataforma pronta.",
+    repoUrl: links.polyagentRepo,
+    liveUrl: links.polyagentDemo
+  },
+  {
+    tier: "Vitrine",
+    name: "Portfolio",
+    role: "Camada de curadoria que conecta os projetos em uma narrativa profissional.",
+    maturity: "Organiza foco, estudos de caso, CV e mapa de maturidade do GitHub.",
+    repoUrl: links.portfolioRepo,
+    liveUrl: "https://yuribarbosacouto.github.io/yuri-dev-portfolio/"
   }
 ];
 
